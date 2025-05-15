@@ -4,11 +4,11 @@
 
 function CheckPalindrome($string){
 	if($string == strrev($string)){
-	  echo "True";	
+	//   echo "True";	
 	  return true;
 	}
 	else{
-	  echo "False";
+	//   echo "False";
 	  return false;
 	}
 }
